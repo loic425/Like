@@ -1,0 +1,34 @@
+
+{
+  "name": "loic425/like",
+  "type": "library",
+  "description": "Like handling for PHP applications.",
+  "keywords": ["like", "vote"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Loïc Frémont",
+      "email": "loic@mobizel.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9|^7.0",
+
+    "doctrine/orm": "^2.4.8,<2.5",
+    "sylius/resource": "^0.17"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^2.4"
+  },
+  "autoload": {
+    "psr-4": { "Loic425\\Component\\Like\\": "" }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../*/*"
+    }
+  ]
+}
